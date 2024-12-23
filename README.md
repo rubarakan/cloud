@@ -42,3 +42,4 @@ WHERE
    AND t.refresh_date >= DATE_SUB(CURRENT_DATE(), INTERVAL 1 MONTH)
 GROUP BY Day, Top_Term, rank, category 
 ORDER BY Day DESC;
+Add region
